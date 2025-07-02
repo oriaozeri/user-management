@@ -1,0 +1,38 @@
+.dialog-paper {
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.submit-button {
+  margin-top: 8px;
+  background-color: #007bff !important;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.submit-button:hover:enabled {
+  background-color: #0056b3 !important;
+}
+
+.submit-button:disabled {
+  background-color: #ccc !important;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
