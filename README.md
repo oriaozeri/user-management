@@ -1,5 +1,5 @@
 
-# User Management System
+## User Management
 
 A full-stack web application for managing users. The backend is built with Java Spring Boot, and the frontend uses React with TypeScript and Redux Toolkit. The application supports creating, deleting, and retrieving users.
 
