@@ -26,6 +26,7 @@ http://localhost:5173
 ### cURL Examples for Testing API
 
 Create User:
+
 curl --location --request POST 'http://localhost:8080/users/add' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -36,10 +37,12 @@ curl --location --request POST 'http://localhost:8080/users/add' \
 }'
 
 Get All Users:
+
 curl --location --request GET 'http://localhost:8080/users' \
 --header 'Content-Type: application/json'
 
 Delete User:
+
 Replace the ID with a valid user ID
 curl --location --request DELETE 'http://localhost:8080/users/delete/a83f9778-b563-4493-ae76-020bbde74aa0' \
 --header 'Content-Type: application/json'
