@@ -1,9 +1,10 @@
+
 # User Management System
 
 A full-stack web application for managing users. The backend is built with Java Spring Boot, and the frontend uses React with TypeScript and Redux Toolkit. The application supports creating, deleting, and retrieving users.
 
 ### 1. Clone the project:
-git clone https://github.com/oriaozeri/user-management-system.git
+git clone https://github.com/oriaozeri/user-management
 
 ### 2. Build the project and run the server:
 Build the project:
